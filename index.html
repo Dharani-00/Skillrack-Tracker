@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkillRack Challenge Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>SkillRack Challenge Tracker</h1>
+    <p>Track your coding progress with ease!</p>
+  </header>
+
+  <section id="add-challenge">
+    <h2>Add New Challenge</h2>
+    <form id="challenge-form">
+      <input type="text" id="challenge-name" placeholder="Challenge Name" required />
+      <select id="difficulty">
+        <option value="">Difficulty</option>
+        <option value="Easy">Easy</option>
+        <option value="Medium">Medium</option>
+        <option value="Hard">Hard</option>
+      </select>
+      <select id="status">
+        <option value="">Status</option>
+        <option value="Solved">Solved</option>
+        <option value="Unsolved">Unsolved</option>
+      </select>
+      <button type="submit">Add Challenge</button>
+    </form>
+  </section>
+
+  <section id="challenge-list">
+    <h2>Your Challenges</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Difficulty</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody id="challenge-table-body">
+        <!-- Challenges will appear here -->
+      </tbody>
+    </table>
+  </section>
+
+  <script src="script.js"></script> 
+  
+</body>
+</html>

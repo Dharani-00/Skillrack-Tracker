@@ -1,0 +1,60 @@
+/* Apply a global font and background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the heading and give it some style */
+h1 {
+    color: #333;
+    margin-top: 30px;
+}
+
+/* Style the form container */
+form {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* Style the table inside the form */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style table cells */
+td {
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Style input fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style submit and reset buttons */
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0078D4;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #005A9E;
+}
